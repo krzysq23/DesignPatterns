@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8329f4ca-439a-48f2-bf78-fa66274827cc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/BehavioralPatterns/Command/CommandPattern.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/BehavioralPatterns/Mediator/Mediator.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/BehavioralPatterns/Observer/Observer.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/BehavioralPatterns/Strategy/Strategy.java" afterDir="false" />
@@ -49,7 +50,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Strategy">
+  <component name="RunManager" selected="Application.CommandPattern">
+    <configuration name="CommandPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BehavioralPatterns.Command.CommandPattern" />
+      <module name="DesignPatterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="BehavioralPatterns.Command.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Mediator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BehavioralPatterns.Mediator.Mediator" />
       <module name="DesignPatterns" />
@@ -96,33 +110,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TemplateMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BehavioralPatterns.TemplateMethod.TemplateMethod" />
-      <module name="DesignPatterns" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="BehavioralPatterns.TemplateMethod.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Application.TemplateMethod" />
       <item itemvalue="Application.Mediator" />
       <item itemvalue="Application.Observer" />
       <item itemvalue="Application.Safelock" />
       <item itemvalue="Application.Strategy" />
+      <item itemvalue="Application.CommandPattern" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CommandPattern" />
         <item itemvalue="Application.Strategy" />
         <item itemvalue="Application.Safelock" />
         <item itemvalue="Application.Observer" />
         <item itemvalue="Application.Mediator" />
-        <item itemvalue="Application.TemplateMethod" />
       </list>
     </recent_temporary>
   </component>
@@ -138,7 +139,7 @@
       <updated>1574419250711</updated>
       <workItem from="1574419254509" duration="16635000" />
       <workItem from="1574670487747" duration="1697000" />
-      <workItem from="1574672742550" duration="11268000" />
+      <workItem from="1574672742550" duration="12578000" />
     </task>
     <servers />
   </component>
