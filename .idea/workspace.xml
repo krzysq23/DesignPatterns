@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8329f4ca-439a-48f2-bf78-fa66274827cc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/StructuralPatterns/Facade/Facade.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/StructuralPatterns/Flyweight/Flyweight.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -136,7 +137,7 @@
       <updated>1574419250711</updated>
       <workItem from="1574419254509" duration="16635000" />
       <workItem from="1574670487747" duration="1697000" />
-      <workItem from="1574672742550" duration="1568000" />
+      <workItem from="1574672742550" duration="2473000" />
     </task>
     <servers />
   </component>
