@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8329f4ca-439a-48f2-bf78-fa66274827cc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/StructuralPatterns/Bridge/Bridge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BehavioralPatterns/TemplateMethod/TemplateMethod.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/StructuralPatterns/Decorator/Decorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StructuralPatterns/Facade/Facade.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StructuralPatterns/Flyweight/Flyweight.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -47,26 +45,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Decorator">
+  <component name="RunManager" selected="Application.TemplateMethod">
     <configuration name="Bridge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="StructuralPatterns.Bridge.Bridge" />
       <module name="DesignPatterns" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="StructuralPatterns.Bridge.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Composite" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StructuralPatterns.Composite.Composite" />
-      <module name="DesignPatterns" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="StructuralPatterns.Composite.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,20 +98,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TemplateMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BehavioralPatterns.TemplateMethod.TemplateMethod" />
+      <module name="DesignPatterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="BehavioralPatterns.TemplateMethod.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.Composite" />
       <item itemvalue="Application.Flyweight" />
       <item itemvalue="Application.Bridge" />
       <item itemvalue="Application.Facade" />
       <item itemvalue="Application.Decorator" />
+      <item itemvalue="Application.TemplateMethod" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TemplateMethod" />
         <item itemvalue="Application.Decorator" />
         <item itemvalue="Application.Bridge" />
         <item itemvalue="Application.Facade" />
         <item itemvalue="Application.Flyweight" />
-        <item itemvalue="Application.Composite" />
       </list>
     </recent_temporary>
   </component>
@@ -142,7 +140,7 @@
       <updated>1574419250711</updated>
       <workItem from="1574419254509" duration="16635000" />
       <workItem from="1574670487747" duration="1697000" />
-      <workItem from="1574672742550" duration="5534000" />
+      <workItem from="1574672742550" duration="6413000" />
     </task>
     <servers />
   </component>
