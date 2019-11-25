@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8329f4ca-439a-48f2-bf78-fa66274827cc" name="Default Changelist" comment="" />
+    <list default="true" id="8329f4ca-439a-48f2-bf78-fa66274827cc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/StructuralPatterns/Flyweight/Flyweight.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,7 +18,13 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1Ty4xqhSAooReKHsw9f2ulmi1bS" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -32,7 +41,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Composite">
+  <component name="RunManager" selected="Application.Flyweight">
     <configuration name="AbstractFactory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CreationalPatterns.AbstractFactory.AbstractFactory" />
       <module name="DesignPatterns" />
@@ -72,12 +81,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Prototype" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CreationalPatterns.Prototype.Prototype" />
+    <configuration name="Flyweight" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StructuralPatterns.Flyweight.Flyweight" />
       <module name="DesignPatterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="CreationalPatterns.Prototype.*" />
+          <option name="PATTERN" value="StructuralPatterns.Flyweight.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,17 +110,17 @@
     <list>
       <item itemvalue="Application.AbstractFactory" />
       <item itemvalue="Application.Adapter" />
-      <item itemvalue="Application.Prototype" />
       <item itemvalue="Application.Proxy" />
       <item itemvalue="Application.Composite" />
+      <item itemvalue="Application.Flyweight" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Flyweight" />
         <item itemvalue="Application.Composite" />
         <item itemvalue="Application.Proxy" />
         <item itemvalue="Application.AbstractFactory" />
         <item itemvalue="Application.Adapter" />
-        <item itemvalue="Application.Prototype" />
       </list>
     </recent_temporary>
   </component>
@@ -127,10 +136,22 @@
       <updated>1574419250711</updated>
       <workItem from="1574419254509" duration="16635000" />
       <workItem from="1574670487747" duration="1697000" />
+      <workItem from="1574672742550" duration="1568000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
