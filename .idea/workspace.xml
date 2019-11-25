@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="8329f4ca-439a-48f2-bf78-fa66274827cc" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/src/StructuralPatterns/Bridge/Bridge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StructuralPatterns/Decorator/Decorator.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/StructuralPatterns/Facade/Facade.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/StructuralPatterns/Flyweight/Flyweight.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -30,6 +31,9 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -43,7 +47,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Bridge">
+  <component name="RunManager" selected="Application.Decorator">
     <configuration name="Bridge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="StructuralPatterns.Bridge.Bridge" />
       <module name="DesignPatterns" />
@@ -63,6 +67,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="StructuralPatterns.Composite.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Decorator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StructuralPatterns.Decorator.Decorator" />
+      <module name="DesignPatterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="StructuralPatterns.Decorator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -96,33 +113,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Proxy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StructuralPatterns.Proxy.Proxy" />
-      <module name="DesignPatterns" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="StructuralPatterns.Proxy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Application.Proxy" />
       <item itemvalue="Application.Composite" />
       <item itemvalue="Application.Flyweight" />
       <item itemvalue="Application.Bridge" />
       <item itemvalue="Application.Facade" />
+      <item itemvalue="Application.Decorator" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Decorator" />
         <item itemvalue="Application.Bridge" />
         <item itemvalue="Application.Facade" />
         <item itemvalue="Application.Flyweight" />
         <item itemvalue="Application.Composite" />
-        <item itemvalue="Application.Proxy" />
       </list>
     </recent_temporary>
   </component>
@@ -138,7 +142,7 @@
       <updated>1574419250711</updated>
       <workItem from="1574419254509" duration="16635000" />
       <workItem from="1574670487747" duration="1697000" />
-      <workItem from="1574672742550" duration="3673000" />
+      <workItem from="1574672742550" duration="5534000" />
     </task>
     <servers />
   </component>
