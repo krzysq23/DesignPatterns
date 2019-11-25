@@ -1,7 +1,8 @@
 package BehavioralPatterns.Interpreter;
 
 /**
- * Wzorzec interpretera służy do zdefiniowania gramatycznej reprezentacji języka i zapewnia tłumacza do obsługi tej gramatyki.
+ * Wzorzec interpretera służy do zdefiniowania gramatycznej reprezentacji języka
+ * i zapewnia tłumacza do obsługi tej gramatyki.
  */
 public class Interpreter {
 
