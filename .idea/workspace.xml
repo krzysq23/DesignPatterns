@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8329f4ca-439a-48f2-bf78-fa66274827cc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/BehavioralPatterns/Mediator/Mediator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BehavioralPatterns/Observer/Observer.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/BehavioralPatterns/TemplateMethod/TemplateMethod.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/StructuralPatterns/Decorator/Decorator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -45,7 +47,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TemplateMethod">
+  <component name="RunManager" selected="Application.Observer">
     <configuration name="Bridge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="StructuralPatterns.Bridge.Bridge" />
       <module name="DesignPatterns" />
@@ -72,12 +74,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Facade" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StructuralPatterns.Facade.Facade" />
+    <configuration name="Mediator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BehavioralPatterns.Mediator.Mediator" />
       <module name="DesignPatterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="StructuralPatterns.Facade.*" />
+          <option name="PATTERN" value="BehavioralPatterns.Mediator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -85,12 +87,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Flyweight" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StructuralPatterns.Flyweight.Flyweight" />
+    <configuration name="Observer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BehavioralPatterns.Observer.Observer" />
       <module name="DesignPatterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="StructuralPatterns.Flyweight.*" />
+          <option name="PATTERN" value="BehavioralPatterns.Observer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,19 +114,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Flyweight" />
       <item itemvalue="Application.Bridge" />
-      <item itemvalue="Application.Facade" />
       <item itemvalue="Application.Decorator" />
       <item itemvalue="Application.TemplateMethod" />
+      <item itemvalue="Application.Mediator" />
+      <item itemvalue="Application.Observer" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Observer" />
+        <item itemvalue="Application.Mediator" />
         <item itemvalue="Application.TemplateMethod" />
         <item itemvalue="Application.Decorator" />
         <item itemvalue="Application.Bridge" />
-        <item itemvalue="Application.Facade" />
-        <item itemvalue="Application.Flyweight" />
       </list>
     </recent_temporary>
   </component>
@@ -140,7 +142,7 @@
       <updated>1574419250711</updated>
       <workItem from="1574419254509" duration="16635000" />
       <workItem from="1574670487747" duration="1697000" />
-      <workItem from="1574672742550" duration="6413000" />
+      <workItem from="1574672742550" duration="9520000" />
     </task>
     <servers />
   </component>
